@@ -20,6 +20,9 @@ body {
 .carousel-caption {
   z-index: 10;
 }
+.black {
+  color:black;
+}
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
@@ -28,18 +31,30 @@ body {
 }
 .carousel-inner > .item > img {
   position: absolute;
-  top: 0;
+  top: 25px;
   left: 0;
   min-width: 100%;
   height: 500px;
 }
-
+.fineprint {
+  margin-top: -15px;
+  font-size: 13px !important;
+}
+.carousel img {
+  -webkit-filter: blur(7px);
+}
+.carousel-indicators li {
+  border-color: orange;
+}
+.carousel-indicators .active {
+  background-color: orange;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+.marketing .centerCol {
   margin-bottom: 20px;
   text-align: center;
 }
@@ -56,7 +71,7 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -86,6 +101,23 @@ body {
 
 @media (min-width: 992px) {
   .featurette-heading {
-    margin-top: 120px;
+    margin-top: 0px;
   }
+}
+
+
+/* MEDIA DISPLAY
+---------------------------------------------------*/
+
+.pdfDisplay {
+  width: 100%;
+  height: 600px;
+}
+.pdf {
+  margin-top: 70px;
+}
+
+.videoDisplay {
+  height: 100%;
+  width: 75%;
 }
