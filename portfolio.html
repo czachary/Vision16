@@ -56,6 +56,18 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
+          <img class="first-slide" src="images/olympicScreenshot.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption black">
+              <h1>Modern Olympic Games Visualization</h1>
+              <p>Examine historic Olympic data in this interactive visualization, written with the d3 Javasript Framework and JQuery.</p>
+              <p><a class="btn btn-lg btn-primary" href="https://github.com/czachary/olympicVis"
+                role="button" target="_blank">Go to Github Repo &raquo;</a></p>
+              <p class="fineprint">(More info below)</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
           <img class="second-slide" src="images/gbaTitle.png" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
@@ -68,7 +80,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="first-slide" src="images/diningDashPrototype.png" alt="First slide">
+          <img class="third-slide" src="images/diningDashPrototype.png" alt="Third slide">
           <div class="container">
             <div class="carousel-caption black">
               <h1>Dining Dash</h1>
@@ -76,18 +88,6 @@
                 the use of wireframes, task analyses, and user experience studies.</p>
               <p><a class="btn btn-lg btn-primary" href="diningDash.html" role="button">View Final Presentation &raquo;</a></p>
               <p class="fineprint">(More info below)</p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="third-slide" src="images/vision16.png" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Vision16</h1>
-              <p>This website! A constant work in progress - 
-                created to display my education, experience, and passion.</p>
-              <p><a class="btn btn-lg btn-primary" href="https://github.com/czachary/Vision16"
-                role="button" target="_blank">Go to Github Repo &raquo;</a></p>
             </div>
           </div>
         </div>
@@ -112,21 +112,37 @@
       <!-- START THE FEATURETTES -->
 
       <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Tree Animation</h2>
-          <p class="lead">Currently enrolled in CS 3451 Computer Graphics (Fall 2016), 
-            this tree animation is our first project.
-            Leaves float amongst the tree and falling leaves can be held in the air by the mouse.
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Skater Animation</h2>
+          <p class="lead">his animation uses vertices in 3D space, defined by the user, creating a polygon which is then subdivided using splines into smooth curves. These splines are used to simulate a skater or runner moving through the space. Written in Processing.
           </p>
           <p>
-            <a class="btn btn-sm btn-default" href="https://github.com/czachary/TreeAnimation"
+            <a class="btn btn-sm btn-default" href="https://github.com/czachary/SkaterAnimation"
             role="button" target="_blank">Go to Github Repo &raquo;</a>
-            <a class="btn btn-sm btn-default" href="treeVideo.html" role="button">Watch a demo &raquo;</a>
+            <a class="btn btn-sm btn-default" href="skaterAnimation.html" role="button">Watch a demo &raquo;</a>
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="images/skaterScreenshot.jpg" 
+                style="height:220px" alt="image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Olympic Visualization</h2>
+          <p class="lead">Examine historic Olympic data in this interactive visualization, written with the d3 Javasript Framework and JQuery.
+          </p>
+          <p>
+            <a class="btn btn-sm btn-default" href="https://github.com/czachary/olympicVis"
+            role="button" target="_blank">Go to Github Repo &raquo;</a>
+            <a class="btn btn-sm btn-default" href="olympicVisualization.html" role="button">Watch a demo &raquo;</a>
           </p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="images/graphicsProject1.jpg" 
-                style="height:220px" alt="image">
+          <img class="featurette-image img-responsive center-block" src="images/olympicScreenshot.jpg" alt="image">
         </div>
       </div>
 
@@ -143,7 +159,7 @@
             <a class="btn btn-sm btn-default" href="diningDash.html" role="button">View Final Presentation &raquo;</a></p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="images/diningDash.png" alt="image">
+          <a id="diningDash"><img class="featurette-image img-responsive center-block" src="images/diningDash.png" alt="image"></a>
         </div>
       </div>
 
@@ -171,7 +187,7 @@
           <h2 class="featurette-heading">The Hardest Game Ever</h2>
           <p class="lead">A Gameboy Advance game, written in C, adapted from the original version of 
             The World's Hardest Game. Players have 3 lives to navigate quickly and avoid the enemies at all costs! 
-            </br>(more levels to come soon)</p>
+            </br>(more levels to come)</p>
           <p><a class="btn btn-sm btn-default" href="https://github.com/czachary/hardestGameEver"
             role="button" target="_blank">Go to Github Repo &raquo;</a>
           </p>
